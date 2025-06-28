@@ -7,19 +7,72 @@
 
     <style>
 
+
+
+        body {
+            background-color: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);;
+        }
+
+
+        button {
+      padding: 15px 20px;
+      color: #885df1;
+      display: block;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 40px;
+      margin: 30px auto;
+      border: 1px solid #885df1;
+      background: transparent;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: all 200ms ease-in-out;
+}
+
+      button:hover{
+          background-color: #885df1;
+          color: rgb(228, 228, 228);
+          text-decoration: dotted;
+           cursor: pointer;
+      }
+
         h1 {
-            color: purple;
+            color:#885df1;
             font-size: 48;
-            font-weight: 100;
+            font-weight: 400;
             text-decoration: underline;
             text-align: center;
+            font-weight: 100;
         }
 
         h2 {
-          color: green;
+          color: #272044;
           text-align: center;
 
         }
+
+         button:hover {
+        color: #fff;
+        background: #885df1;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
 
 
         .one a {
@@ -32,15 +85,36 @@
             color: green;
         }
 
+     img {
+
+        display: block;
+        width: 200;
+        margin:0 auto;
+
+      }
+
+   p {
+    display: block;
+    text-align: center;
+   }
 
     </style>
 
 </head>
 
 <body>
+ 
+   <!-- Each element is by default inline or block element. A block element creates an invisible line before and after. An inline element doesn't. -->
     <h1> Shecode </h1>
     <h2> workshop coding </h2>
-    
+
+    <!--add botom
+    <div class="add-now-box">
+        <p>Add Now </p>
+    </div>
+  -->
+
+  <button> Add now </button>
 
     <ul>
         <li class = "one">
@@ -60,11 +134,8 @@
         </li>
     
         <hr />
-        <p>
-            <strong>
-                More info
-            </strong>
-        </p>
+   <p><strong> More info </strong></p>
+
         <img src="https://i.pinimg.com/736x/f0/3d/83/f03d835a623bdc60dfa283d15c9fd149.jpg" width="300" />
     
 </body>
